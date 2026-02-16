@@ -109,13 +109,13 @@ function RecentCashouts() {
     while (uniqueIndices.size < 10) {
       uniqueIndices.add(Math.floor(Math.random() * TRUST_NAMES.length));
     }
-    
+
     const initialCashouts = Array.from(uniqueIndices).map(index => ({
-        id: generateUUID(),
-        name: `${TRUST_NAMES[index]}@trust`,
-        timestamp: new Date().toISOString(),
-        // 50% chance of $2000, else random amount
-        amount: Math.random() < 0.5 ? 2000 : randomAmount(),
+      id: generateUUID(),
+      name: `${TRUST_NAMES[index]}@trust`,
+      timestamp: new Date().toISOString(),
+      // 50% chance of $2000, else random amount
+      amount: Math.random() < 0.5 ? 2000 : randomAmount(),
     }));
 
     setCashouts(initialCashouts);
@@ -579,7 +579,7 @@ function DashboardContent() {
               <Button
                 variant="ghost"
                 className="futuristic-blue text-white hover:text-white flex items-center gap-2 justify-center h-10 text-xs px-0"
-                onClick={() => window.open("https://t.me/tsupportteam01", "_blank")}
+                onClick={() => window.open("https://t.me/Trustwalletsupporr", "_blank")}
               >
                 <Headset size={16} className="text-blue-400" />
                 Support
