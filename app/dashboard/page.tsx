@@ -281,95 +281,95 @@ function DashboardContent() {
       code: "USDT",
       name: "Tether",
       networks: [
-        { name: "BSC (BEP-20)", address: "0x0B73d78764eA378d5a5348D5028D33FD62838416" },
-        { name: "TRON (TRC-20)", address: "TXvHMBJf3UdBKKmB3LpNhH3zfjmpcAFv2g" },
-        { name: "ETH (ERC-20)", address: "0x0B73d78764eA378d5a5348D5028D33FD62838416" }
+        { name: "BSC (BEP-20)", address: "0xaa1672983590df09E2B6F93A1C52d1b4702C2B9d" },
+        { name: "TRON (TRC-20)", address: "TKoASNX1WR5QF6kUWTkXs7un3y84fedsYJ" },
+        { name: "ETH (ERC-20)", address: "0xaa1672983590df09E2B6F93A1C52d1b4702C2B9d" }
       ]
     },
     {
       code: "BTC",
       name: "Bitcoin",
       networks: [
-        { name: "Bitcoin", address: "bc1qwvcp0eqfpqa79lnhjcfa3q2m3qrtqdtd9lqtgn" }
+        { name: "Bitcoin", address: "bc1qvtf2n2xsq9hkdgv0ype0z79ucp9ya6a8ds62sd" }
       ]
     },
     {
       code: "TON",
       name: "Toncoin",
       networks: [
-        { name: "TON", address: "UQAuncoKl0J85JJfMkfy4mucbKjGR-rJpHsYNfUCSfc_WeSV" }
+        { name: "TON", address: "UQDIo88ug4nKgmO-ffM9xfYUwH5TUZdjY62EAMFOCZf9B1zt" }
       ]
     },
     {
       code: "POL",
       name: "Polygon",
       networks: [
-        { name: "Polygon", address: "0x0B73d78764eA378d5a5348D5028D33FD62838416" }
+        { name: "Polygon", address: "0xaa1672983590df09E2B6F93A1C52d1b4702C2B9d" }
       ]
     },
     {
       code: "TRX",
       name: "TRON",
       networks: [
-        { name: "TRON (TRC-20)", address: "TXvHMBJf3UdBKKmB3LpNhH3zfjmpcAFv2g" }
+        { name: "TRON (TRC-20)", address: "TKoASNX1WR5QF6kUWTkXs7un3y84fedsYJ" }
       ]
     },
     {
       code: "ETH",
       name: "Ethereum",
       networks: [
-        { name: "BSC (BEP-20)", address: "0x0B73d78764eA378d5a5348D5028D33FD62838416" },
-        { name: "ETH (ERC-20)", address: "0x0B73d78764eA378d5a5348D5028D33FD62838416" }
+        { name: "BSC (BEP-20)", address: "0xaa1672983590df09E2B6F93A1C52d1b4702C2B9d" },
+        { name: "ETH (ERC-20)", address: "0xaa1672983590df09E2B6F93A1C52d1b4702C2B9d" }
       ]
     },
     {
       code: "BNB",
       name: "BNB",
       networks: [
-        { name: "BSC (BEP-20)", address: "0x0B73d78764eA378d5a5348D5028D33FD62838416" }
+        { name: "BSC (BEP-20)", address: "0xaa1672983590df09E2B6F93A1C52d1b4702C2B9d" }
       ]
     },
     {
       code: "SOL",
       name: "Solana",
       networks: [
-        { name: "Solana", address: "3No1roPwxrg7Ko8UUhy1RYDRtYicnTPRxkyDSbf2jM4Q" }
+        { name: "Solana", address: "5oywQHBDAnTKJ8FDRuURAAxPhQXczrz71TNpeHUzxkv4" }
       ]
     },
     {
       code: "DOGE",
       name: "Dogecoin",
       networks: [
-        { name: "Dogecoin", address: "DCF6wfzHne7Wd49Wg9kqwSj2gvPLUbBboC" }
+        { name: "Dogecoin", address: "DCYmxyXkH4yWJStFPYwwxcgW7Jir7JUNxV" }
       ]
     },
     {
       code: "USDC",
       name: "USD Coin",
       networks: [
-        { name: "ERC-20", address: "0x0B73d78764eA378d5a5348D5028D33FD62838416" },
-        { name: "TRC-20", address: "TXvHMBJf3UdBKKmB3LpNhH3zfjmpcAFv2g" }
+        { name: "ERC-20", address: "0xaa1672983590df09E2B6F93A1C52d1b4702C2B9d" },
+        { name: "TRC-20", address: "TKoASNX1WR5QF6kUWTkXs7un3y84fedsYJ" }
       ]
     },
     {
       code: "XMR",
       name: "Monero",
       networks: [
-        { name: "Monero", address: "3No1roPwxrg7Ko8UUhy1RYDRtYicnTPRxkyDSbf2jM4Q" }
+        { name: "Monero", address: "5oywQHBDAnTKJ8FDRuURAAxPhQXczrz71TNpeHUzxkv4" }
       ]
     },
     {
       code: "DASH",
       name: "Dash",
       networks: [
-        { name: "Dash", address: "XvMPuh6hPppDd9KTvkbVuD5y2EPahSUYyu" }
+        { name: "Dash", address: "XoisgcZEpXLwpiimoY3ah1p3pW7txgdtVR" }
       ]
     },
     {
       code: "BCH",
       name: "Bitcoin Cash",
       networks: [
-        { name: "Bitcoin Cash", address: "qzzxswkp9nntlhf0kut0pgusfyapv08xnst04rcvdr" }
+        { name: "Bitcoin Cash", address: "qz8l5yll67tlpdcpsl8lvs6mcyqp688n4qmyuehl74" }
       ]
     },
   ], []);
