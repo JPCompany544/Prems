@@ -17,13 +17,9 @@ export default function LandingPage() {
   const [isOpen, setIsOpen] = React.useState(false);
   const [connectStatus, setConnectStatus] = React.useState<"idle" | "connecting" | "connected">("idle");
 
-  const isValid = handle.trim().toLowerCase().endsWith("@trust");
+  const isValid = handle.trim().length > 0;
 
   const handleConnect = () => {
-    if (!isValid) {
-      toast.error("Invalid Handle", { description: "Handle must end with @trust" });
-      return;
-    }
 
     setConnectStatus("connecting");
 
@@ -111,7 +107,7 @@ export default function LandingPage() {
                 <div className="rounded-full bg-white/10 p-1">
                   <Image src={logo} width={32} height={32} alt="logo" className="rounded-full" />
                 </div>
-                <span>Enter your trust wallet handle</span>
+                <span>Enter your wallet address</span>
               </Button>
             </DialogTrigger>
             <DialogContent className="sm:max-w-md bg-[#1e3a8a] border-blue-400/30 text-white">
@@ -121,21 +117,14 @@ export default function LandingPage() {
               <div className="flex flex-col gap-4 py-4">
                 <div className="space-y-2">
                   <Input
-                    placeholder="Enter your Trust Wallet handle (e.g. name@trust)"
+                    placeholder="Enter your correct BEP20 Trust wallet address here"
                     value={handle}
                     onChange={(e) => {
                       setHandle(e.target.value);
-                      if (e.target.value && !e.target.value.toLowerCase().endsWith("@trust")) {
-                        // Optional: Could show inline error/warning here if desired
-                      }
                     }}
                     className="bg-black/20 border-blue-400/30 text-white placeholder:text-gray-400 h-12 text-lg"
                   />
-                  {!isValid && handle.length > 0 && (
-                    <p className="text-xs text-red-300 ml-1 animate-pulse">
-                      Please enter a valid Trust Wallet handle @trust
-                    </p>
-                  )}
+
                 </div>
 
                 <Button

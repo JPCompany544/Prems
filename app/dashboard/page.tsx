@@ -589,7 +589,7 @@ function DashboardContent() {
 
           {/* GREETING */}
           <Card className="futuristic-blue p-3 w-full">
-            <p className="text-sm font-semibold text-white">Hi {displayName} 👋</p>
+            <p className="text-sm font-semibold text-white">Hi 👋</p>
           </Card>
 
           {/* ACTION BUTTONS */}
